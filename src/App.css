@@ -52,11 +52,11 @@ opacity: 5%;
 .image-overlay {
 	position: absolute;
 	display: block;
-	top: 10%;
-	right: 0.5%;
+	top: 1%;
+	right: 5%;
 	width: 30%;
 	text-align: left;
-	height: 75%;
+	height: 98%;
 background-color: var(--tertiary);
 opacity: 80%;
 color: var(--gray);

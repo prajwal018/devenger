@@ -10,7 +10,7 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import MapWithMarker  from '../components/MapWithMarker';
-import { BsGithub, BsInstagram, BsLinkedin, BsFillArrowDownCircleFill } from 'react-icons/bs';
+import { BsGithub, BsInstagram, BsLinkedin, BsFillArrowRightCircleFill } from 'react-icons/bs';
 import { LiteYoutubeEmbed } from 'react-lite-yt-embed'; 
 import { toast } from 'react-toastify';
  
@@ -25,7 +25,7 @@ const Home = () => {
 			<section id="define">
 				<div>			<MapWithMarker />  </div>
 				<div className="image-overlay">
-					<h3 className="btn btn-light" onClick={handleHi}>Hola! 👋</h3>
+					<h3 className="btn btn-light mb-4" onClick={handleHi}>Hola! 👋</h3>
 					<h3>I'm Prajwal Kuchewar</h3>
 					<h4>Software Engineer</h4>
 					<p className='fs-6 fw-light'>
@@ -61,7 +61,7 @@ const Home = () => {
 							Hire Me Now
 						</button></div>
 					
-					<h6 className='d-flex justify-content-end mt-3 pt-3'>P.S. Pick this buddy to see the world <BsFillArrowDownCircleFill style={{ color: 'green' }} className='ms-2 color-cyan fs-5' /></h6>
+					<h6 className='d-flex justify-content-end mt-4 pt-3'>Hover this avatar to explore <BsFillArrowRightCircleFill style={{ color: 'green' }} className='ms-2 color-cyan fs-5' /></h6>
 				</div>
 			</section>
 
