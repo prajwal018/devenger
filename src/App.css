@@ -1,0 +1,437 @@
+:root {
+	--gray: #eee;
+	--tertiary: #000;
+}
+/* NAVBAR CSS */
+
+body button {
+	border-color: var(--tertiary);
+	border-radius: 5px;
+	padding: 1% 2%;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.navbar-brand {
+	font-size: 1.5rem;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+/* NAVBAR CSS */
+/* BODY CSS */
+body {
+	align-items: center;
+}
+/* DEFINE CSS */
+section {
+	text-align: center;
+	display: block;
+	width: 100%;
+}
+section#define {
+	position: relative;
+	text-align: center;
+	height: 36rem;
+	overflow: hidden;
+	margin: 0 2%;
+	width: 96%;
+	background-color: var(--gray);
+	border-radius: 20px;
+}
+section#define img {
+	width: 100%;
+	height: 100%;
+}
+
+.corusal-overlay {
+	width: 100%;
+	height: 100%;
+background-color: var(--tertiary);
+opacity: 5%;
+}
+.image-overlay {
+	position: absolute;
+	display: block;
+	top: 10%;
+	right: 0.5%;
+	width: 30%;
+	text-align: left;
+	height: 75%;
+background-color: var(--tertiary);
+opacity: 80%;
+color: var(--gray);
+	border-radius: 20px;
+	padding: 20px;
+	overflow: hidden;
+}
+
+section#define h4 {
+	margin-bottom: 20px;
+}
+
+section#define button,
+section#define button.button {
+	font-size: small;
+	margin: 10px 0;
+}
+
+/* DEFINE CSS */
+/* CONTENT-WRAP CSS */
+
+div.content-wrap {
+	margin-left: 10%;
+	width: 80%;
+	padding: 20px;
+}
+.content-wrap h2 {
+	margin: 40px;
+	text-align: center;
+
+	height: fit-content;
+	border-radius: 20px;
+}
+/* CONTENT-WRAP CSS */
+/* sERVICE CSS */
+#services {
+	width: 100%;
+
+	/*  */
+	border-radius: 5px;
+	margin: 10px 0;
+}
+#services div.row {
+	justify-content: center;
+	width: 100%;
+}
+#services div.card {
+	margin: 5% 5%;
+
+	overflow: hidden;
+}
+#services .card-body h5 {
+	height: 20%;
+}
+#services .card-body p {
+	height: 40%;
+}
+#services .card-body a {
+	margin-top: 5%;
+	height: 20%;
+	overflow: hidden;
+}
+#services .card-body {
+	text-align: center;
+	margin: 5% 5%;
+	padding: 5%;
+	width: 90%;
+	height: 250px;
+	overflow: hidden;
+}
+
+/* sERVICE CSS */
+/* ABOUT CSS */
+#about {
+	text-align: left;
+
+	/* 
+ */
+}
+#about,
+#skills {
+	padding: 50px;
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	width: 100%;
+}
+#skills {
+	text-align: right;
+	/*  */
+}
+.aboutme-text,
+.skills-text {
+	margin: 5%;
+	width: 100%;
+}
+.skills-text h3,
+.aboutme-text h3 {
+	border-radius: 20px;
+	padding: 0 5%;
+}
+.aboutme-text p,
+.aboutme-text h6,
+.skills-text p,
+.skills-text h6 {
+	padding: 3% 5%;
+}
+
+.skills-text button,
+.aboutme-text button {
+	margin: 0 5%;
+}
+.skills-pic,
+.aboutme-pic {
+	width: 100%;
+	margin: 5%;
+	text-align: center;
+}
+
+.aboutme-pic img,
+.skills-pic YoutubeEmbed {
+	padding: 5%;
+	border-radius: 50%;
+}
+
+.aboutme-pic p,
+.skills-pic p {
+	font-size: 16px;
+	padding: 5%;
+}
+
+/* ABOUT CSS */
+/* SKILLS CSS */
+
+/* SKILLS CSS */
+/* PROJECTS CSS */
+#projects {
+	padding: 50px;
+}
+.carousel-caption {
+	color: #000 !important;
+}
+.carousel-indicators button {
+	background-color: #000 !important;
+}
+
+/* PROJECTS CSS */
+
+/* FOOTER CSS */
+
+#footer {
+	margin: 0 2%;
+	width: 96%;
+	background-color: var(--gray);
+	border-radius: 20px;
+	padding: 2.5% 5%;
+}
+
+div.myinfo {
+	display: flex;
+	justify-content: center;
+}
+.myinfo h5 {
+	text-align: center;
+	margin: 2% 2%;
+}
+
+div.small {
+	font-weight: lighter;
+	font-size: smaller;
+	text-align: center;
+	margin: 2.5%;
+	opacity: 80%;
+}
+
+div.copyright p {
+	text-align: center;
+	margin: 1px;
+}
+
+/* FOOTER CSS */
+
+/* YOUTUBE CSS */
+.video-responsive {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+}
+
+.video-responsive iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+/* YOUTUBE CSS */
+
+/* CONTACT CSS */
+#contact h1 {
+	text-align: center;
+	padding-top: 40px;
+}
+#page-title {
+	margin: 0 2%;
+	width: 96%;
+	background-color: var(--gray);
+	border-radius: 20px;
+	text-align: center;
+}
+
+#page-title h1 {
+	padding: 20px 0;
+	margin: 0;
+}
+#page-title ul.list-nav a {
+	padding: 15px;
+	text-decoration: none;
+	color: #000;
+}
+
+#page-title ul.list-nav {
+	display: flex;
+	justify-content: center;
+	padding: 0 0 40px 0;
+}
+section#quick-support div.myinfo {
+	display: block;
+	justify-content: left;
+}
+#quick-support h5 {
+	text-align: left;
+	margin: 30px;
+	margin-bottom: 10%;
+}
+#quick-support p {
+	text-align: left;
+	margin: 50px;
+}
+#contact div.small {
+	position: absolute;
+	text-align: left;
+	margin: 0 6%;
+}
+#quick-support svg {
+	font-size: 30px;
+	margin: 2% 2% 0 2%;
+}
+#comment form {
+	border-radius: 5px;
+	text-align: left;
+	padding: 20px;
+	text-align: center;
+}
+#comment input,
+#comment textarea {
+	width: 50%;
+	padding: 10px;
+	border-radius: 5px;
+	border-color: var(--tertiary);
+	height: fit-content;
+	resize: none;
+}
+/* CONTACT CSS */
+
+/* ABOUT  CSS */
+/* MY PROCESS */
+#my-process {
+	margin-bottom: 10rem;
+}
+div.row.bottom {
+	justify-content: center;
+}
+div.col-sm-4 {
+	padding: 20px;
+	margin: 0%;
+}
+
+/* MY PROCESS */
+/* BRIEF CSS */
+section#breif {
+	padding-bottom: 50px;
+	width: 100%;
+}
+/* BRIEF CSS */
+/* FEEDBACK CSS */
+section#feedback {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	border-color: var(--tertiary);
+}
+
+/* FEEDBACK CSS */
+/* ABOUT  CSS */
+
+@media only screen and (max-width: 768px) {
+	.myinfo,
+	section#skills,
+	section#about {
+		width: 100%;
+		flex-direction: column;
+		text-align: center;
+		padding: 10%;
+	}
+	div.row,
+	div.col-sm-3 {
+		width: 100%;
+		flex-direction: column;
+		text-align: center;
+	}
+	/*  */
+	section#feedback {
+		flex-wrap: wrap;
+	}
+	div.card {
+		margin: 3% 3%;
+	}
+
+	/* */
+	section#projects,
+	section#services .myinfo {
+		padding: 5%;
+	}
+	div.aboutme-text,
+	div.aboutme-pic,
+	div.skills-text,
+	div.skills-pic {
+		margin: 0%;
+	}
+	.skills-text h3,
+	.aboutme-text h3,
+	.aboutme-text p,
+	.aboutme-text a,
+	.skills-text p,
+	.aboutme-text a {
+		text-align: center;
+	}
+	.aboutme-text a,
+	.skills-text a {
+		padding: 1% 1%;
+	}
+	h1 {
+		font-size: 2em;
+	} /* reduce h1 to h2 */
+	h2 {
+		font-size: 1.5em;
+	} /* reduce h2 to h3 */
+	h3 {
+		font-size: 1.17em;
+	} /* reduce h3 to h4 */
+	h4 {
+		font-size: 1em;
+	} /* reduce h4 to h5 */
+	h5 {
+		font-size: 0.83em;
+	} /* reduce h5 to h6 */
+	h6 {
+		font-size: 0.67em;
+	} /* reduce h6 to smallest size */
+	p {
+		font-size: 0.83em; /* reduce font-size */
+		line-height: 1.2em; /* adjust line-height */
+	}
+	div.col-sm-3 {
+		margin: 0%;
+	}
+	div.row {
+		margin: 0%;
+	}
+	div.row.bottom {
+		margin: 0%;
+		flex-basis: 100%;
+	}
+}
